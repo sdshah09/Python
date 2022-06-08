@@ -18,5 +18,8 @@ print(value)
 value.insert(2,'hii') #? insert any value at particular index
 print(value)
 
+value[1] = 55 #! mutable so directly assign value to the index
+print(value)
+
 value.clear() #todo clear the whole list
 print(value)
